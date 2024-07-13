@@ -302,14 +302,16 @@ align-items: flex-end; */
 .people-list {
   display: flex;
   gap: 24px;
-  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
-    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+  /* box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08); */
 }
 
 .people {
   background-color: #ffffff;
   width: calc((100% - 3 * 24px) / 4);
   border-radius: 0px 0px 4px 4px;
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .people .list-name-job .list-paragraph,
@@ -319,8 +321,8 @@ align-items: flex-end; */
 
 .list-name-job {
   padding: 32px 0;
-  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
-    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+  /* box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08); */
 }
 
 .portfolio {
@@ -444,6 +446,10 @@ align-items: flex-end; */
   margin-top: 8px;
 }
 
+.footer-item .soc-list {
+  gap: 16px;
+}
+
 .soc-list-item {
   width: 40px;
   height: 40px;
@@ -467,14 +473,14 @@ align-items: flex-end; */
 
 .soc-link:hover,
 .soc-link:focus {
-  background-color: #404bbf;
+  background-color: #31d0aa;
 }
 
 .soc-icon {
   fill: #f4f4fd;
 }
 
-.icon-icon-item {
+.icon-icon {
   display: flex;
   align-items: center;
   justify-content: center;
